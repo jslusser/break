@@ -16,7 +16,7 @@ within a Break program account, so each transaction can be uniquely identified b
 
 ### Prerequisites
 
-Solana CLI Tooling: https://docs.solana.com/cli/install-solana-cli-tools
+Solana CLI Tooling: https://docs.solana.com/sh -c "$(curl -sSfL https://release.solana.com/v1.14.3/install)"cli/install-solana-cli-tools
 For running this application you need to have [NodeJs](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/).
 We recommend to use [NVM](https://github.com/creationix/nvm) for managing NodeJs versions
 For NVM installation please refer to [manual](https://github.com/creationix/nvm#install--update-script)

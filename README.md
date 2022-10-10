@@ -170,3 +170,14 @@ https://break.solana.com/game?test
 - [React](https://github.com/facebook/react/) - Framework
 - [TypeScript](https://www.typescriptlang.org/) - Primary language
 - [Torus](https://tor.us/) - Wallet Key Management
+
+### JCS Comments
+Transaction creation differences;
+  - Solana Game uses "postMessage" made in solana-labs
+  - Hello World uses "sendAndConfirmTransaction" from solana/web3.js
+Transaction argument differences;
+  - Solana Game requires secretKey
+  - Hello World consistently uses publicKey for transaction, rather than privateKey.
+
+Note: Both of them use "Transaction" module from solana/web3.js
+- The Solana Game appears to use a different module, workerRPC, however after reading through workerRPC, I found the "Transaction" module.

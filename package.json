@@ -19,5 +19,8 @@
     "format": "./package.sh both run format",
     "format:fix": "./package.sh both run format:fix",
     "postinstall": "./package.sh both install"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.63.1"
   }
 }
